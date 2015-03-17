@@ -1,2 +1,8 @@
 <?php
-return array();
+return array(
+    'view_helpers' => array(
+        'factories' => array(
+            'getVersion' => 'VersionModule\View\Helper\GetVersionFactory',
+        ),
+    ),
+);
